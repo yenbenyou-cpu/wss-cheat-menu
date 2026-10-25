@@ -1,0 +1,14 @@
+# 构建产物、日志、IDE
+*.log
+build/
+out/
+classes/
+.idea/
+.vscode/
+*.iml
+*.ps1.bak
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store

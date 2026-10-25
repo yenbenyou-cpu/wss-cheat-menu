@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "wsscheat"
+version = "1.0.0"
+displayName = "奇妙作弊菜单"
+authors = "DeepSeek Harness"
+description = '''
+为《奇妙商店物语》整合包准备的图形化作弊菜单：金钱倍率、一键加钱、自动补钱、一键解锁、玩家状态与世界控制。
+按 F8 打开（可在“选项 → 控制 → 按键绑定”里修改）。
+所有改动都通过整合包核心模组自身的 API 完成，只支持单人游戏。
+'''
+
+[[dependencies.wsscheat]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.wsscheat]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21,1.21.2)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.wsscheat]]
+modId = "wonder_shop_story_core"
+type = "required"
+versionRange = "[1.6.0,)"
+ordering = "AFTER"
+side = "CLIENT"
