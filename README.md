@@ -168,7 +168,7 @@ A：纯客户端、零 mixin、只调核心模组的公开方法，理论上不�
 需要 **JDK 21+**（游戏本体是 Java 21 编的，编译产物也是 21）。不需要 Gradle、不需要联网——直接拿你本地已经下好的库当 classpath 编译。
 
 ```powershell
-git clone https://github.com/youyenben/wss-cheat-menu.git
+git clone https://github.com/yenbenyou-cpu/wss-cheat-menu.git
 cd wss-cheat-menu
 powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
 ```
